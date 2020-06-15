@@ -2,7 +2,7 @@
 
 This repository is a fork from [**Ultralytics' repository**](https://github.com/ultralytics/yolov5) for YOLOv5 open-source object detection method. Please check original repo for information on pretrained checkpoints and tutorials on how to reproduce their environment or train with custom data. Main changes are a focus on inference only and ensuring it works in Windows 10.
 
-YOLOv5 provides sota realtime object dectection up to 140 FPS. For more information see the [Roboflow's blog post](https://blog.roboflow.ai/yolov5-is-here/) and guide to [train it on a custom dataset](https://blog.roboflow.ai/how-to-train-yolov5-on-a-custom-dataset/). This [HackerNews]() thread provides additional insights and potential naming controversy. 
+YOLOv5 provides SOTA realtime object detection. For more information see the [Roboflow's blog post](https://blog.roboflow.ai/yolov5-is-here/) and guide to [train it on a custom dataset](https://blog.roboflow.ai/how-to-train-yolov5-on-a-custom-dataset/). This [HackerNews]() thread provides additional insights and potential naming controversy. 
 
 This repo was tested in Windows 10 Home (Version 2004) with Nvidia GeForce RTX 2060.
 
