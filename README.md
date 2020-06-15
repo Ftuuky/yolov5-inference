@@ -15,7 +15,7 @@ The release of YOLOv5 includes five different models sizes: YOLOv5s (smallest), 
 
 Ensure you have downloaded the pretrained checkpoints ([GDrive link](https://drive.google.com/drive/folders/1zzc230IK3s0AB3Pvi2UF30JQYDm2rDpW?usp=sharing)) or from the [original repo links](https://drive.google.com/drive/folders/1Drs_Aiu7xx6S-ix95f9kNsA6ueKRpN2J).
 
-This code does not automatically download any models and only `yolov5s.pt` is included but please download the other pretrained checkpoints from link. There's a [tradeoff](https://user-images.githubusercontent.com/26833433/84200349-729f2680-aa5b-11ea-8f9a-604c9e01a658.png) between AP and latency: larger models are more precise but exhibit slower inference. 
+This code does not automatically download any models, please download the pretrained checkpoints from link. There's a [tradeoff](https://user-images.githubusercontent.com/26833433/84200349-729f2680-aa5b-11ea-8f9a-604c9e01a658.png) between AP and latency: larger models are more precise but exhibit slower inference. 
 
 
 ## Requirements
@@ -51,18 +51,16 @@ $ python detect.py --source file.jpg  # image
 To run inference on examples in the `./inference/images` folder:
 
 ```bash
-$ python detect.py --source ./inference/images/ --weights yolov5s.pt --conf 0.4
-
-Namespace(agnostic_nms=False, augment=False, classes=None, conf_thres=0.4, device='', fourcc='mp4v', half=False, img_size=640, iou_thres=0.5, output='inference/output', save_txt=False, source='./inference/images/', view_img=False, weights='yolov5s.pt')
+$ python detect.py --source ./inference/images/ --weights yolov5x.pt --conf 0.4
+Namespace(agnostic_nms=False, augment=False, classes=None, conf_thres=0.4, device='', fourcc='mp4v', half=False, img_size=640, iou_thres=0.5, output='inference/output', save_txt=False, source='./inference/images/', view_img=False, weights='yolov5x.pt')
 Using CUDA device0 _CudaDeviceProperties(name='GeForce RTX 2060', total_memory=6144MB)
 
-image 1/5 inference\images\bus.jpg: 640x512 3 persons, 1 buss, Done. (0.021s)
-image 2/5 inference\images\dog.jpg: 448x640 1 persons, 1 dogs, Done. (0.017s)
-image 3/5 inference\images\fashion.jpg: 640x448 2 persons, 2 handbags, Done. (0.017s)
-image 4/5 inference\images\tokyo.jpg: 512x640 5 persons, 2 handbags, 3 ties, Done. (0.017s)
-image 5/5 inference\images\zidane.jpg: 384x640 2 persons, 1 ties, Done. (0.018s)
-Results saved to C:\Users\ftuuk\Documents\yolov5\inference/output
-Done. (2.447s)
+image 1/5 inference\images\bus.jpg: 640x512 4 persons, 1 buss, Done. (0.072s)
+image 2/5 inference\images\dog.jpg: 448x640 1 persons, 1 dogs, 1 couchs, Done. (0.057s)
+image 3/5 inference\images\fashion.jpg: 640x448 2 persons, 2 handbags, Done. (0.058s)
+image 4/5 inference\images\tokyo.jpg: 512x640 6 persons, 3 handbags, 3 ties, 1 books, Done. (0.056s)
+image 5/5 inference\images\zidane.jpg: 384x640 2 persons, 2 ties, Done. (0.047s)
+Results saved to \inference\output
 ```
 
 <img src="https://user-images.githubusercontent.com/26833433/83082816-59e54880-a039-11ea-8abe-ab90cc1ec4b0.jpeg" width="500">  
