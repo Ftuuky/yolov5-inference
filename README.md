@@ -63,4 +63,4 @@ image 5/5 inference\images\zidane.jpg: 384x640 2 persons, 2 ties, Done. (0.047s)
 Results saved to \inference\output
 ```
 
-<img src="https://user-images.githubusercontent.com/26833433/83082816-59e54880-a039-11ea-8abe-ab90cc1ec4b0.jpeg" width="500">  
+<img src="https://user-images.githubusercontent.com/16304630/84706283-99c29000-af54-11ea-901b-f86bb3db9690.jpg" width="500">  
