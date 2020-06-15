@@ -11,7 +11,7 @@ This repo was tested in Windows 10 Home (Version 2004) with Nvidia GeForce RTX 2
 
 ## Pretrained Checkpoints
 
-The release of YOLOv5 includes five different models sizes: YOLOv5s (smallest), YOLOv5m, YOLOv5l, YOLOv5x (largest).
+The release of YOLOv5 includes four different models sizes: YOLOv5s (smallest), YOLOv5m, YOLOv5l, YOLOv5x (largest).
 
 Ensure you have downloaded the pretrained checkpoints ([GDrive link](https://drive.google.com/drive/folders/1zzc230IK3s0AB3Pvi2UF30JQYDm2rDpW?usp=sharing)) or from the [original repo links](https://drive.google.com/drive/folders/1Drs_Aiu7xx6S-ix95f9kNsA6ueKRpN2J).
 
